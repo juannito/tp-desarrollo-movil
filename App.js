@@ -1,5 +1,7 @@
+
 import React, { Component } from "react";
 import { StyleSheet, Text, View, Button } from "react-native";
+
 
 import Map from "./components/Map";
 import Localizar from "./components/Location";
