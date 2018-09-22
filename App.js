@@ -28,7 +28,7 @@ export default class App extends Component {
     return (
       <View style={styles.container}>
         <Map onLocationChange={this.handleLocationChange} />
-        <Button title={buttonState ? 'LOCALIZAR' : 'DESAPARECER'} onPress={this.handlePress}  style={styles.button}/>
+        <Button title={buttonState ? 'LOCALIZAR' : 'DESAPARECERB'} onPress={this.handlePress}  style={styles.button}/>
       </View>
     )
   }
