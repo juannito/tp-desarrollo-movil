@@ -1,10 +1,9 @@
-import React from 'react'
+import React, {Component} from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 
 import Map from './components/Map'
-import Camera from './components/Camera'
 
-export default class App extends React.Component {
+export default class App extends Component {
   handleLocationChange = coordinates => {
     console.log(coordinates)
   }
@@ -17,7 +16,6 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <Map onLocationChange={this.handleLocationChange} />
-        <Camera onPictureTake={this.handlePictureTake} />
       </View>
     )
   }
