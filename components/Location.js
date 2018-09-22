@@ -16,6 +16,7 @@ export default class Localizar extends Component {
     } else {
       this._getLocationAsync();
     }
+
   }
 
   _getLocationAsync = async () => {
